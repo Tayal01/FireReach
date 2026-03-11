@@ -12,7 +12,7 @@ function App() {
     try {
       setLoading(true);
 
-      const response = await axios.post("https://firereach-q6mo.onrender.com/run-agent", {
+      const response = await axios.post("https://firereach-q6mo.onrender.com", {
         icp,
         company,
         email,
